@@ -1,0 +1,34 @@
+# Python bytecode и кеши
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы виртуального окружения (если они находятся в папках с именами .env, .venv или подобными)
+.env/
+.venv/
+venv/
+
+# Файлы, создаваемые инструментами тестирования
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+
+# Файлы сборки и дистрибуции
+build/
+dist/
+*.egg-info/
+
+# Логи
+*.log
+
+# Настройки IDE и редактора
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Файлы, генерируемые системой
+.DS_Store
+Thumbs.db
